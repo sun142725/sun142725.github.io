@@ -223,23 +223,31 @@
 .section4 .head {
     display: none;
     color:#ffffff;
-    font-size: 36px;
+    font-size: 20px;
+    height:50px;
+    line-height: 50px;
 }
 .section4 .head5 {
-    font-size: 36px;
+    font-size: 20px;
     position: relative;
     bottom: -120%;
     color:#ffffff;
+    height:50px;
+    line-height: 50px;
 }
 .section4 .head8 {
-    font-size: 36px;
+    font-size: 20px;
     position: relative;
     left: -120%;
     color:#ffffff;
+    height:50px;
+    line-height: 50px;
 }
 .section4 .head9 {
-    font-size: 36px;
+    font-size: 20px;
     position: relative;
     left: 120%;
     color:#ffffff;
+    height:50px;
+    line-height: 50px;
 }
