@@ -1,0 +1,421 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+nav{
+	width: 100%;
+	height: 44px;
+	background: black;
+	opacity: 0.8;
+	position: relative;
+}
+nav .navboxson{
+	width:100%;
+	height: 44px;
+	margin: 0px auto;
+	background: red;
+	/* display: inline-block; */
+	display: none;
+	position: absolute;
+	top:0px;
+}
+nav .navboxson li{
+	float: left;
+	width: 33.33%;
+	text-align:center;
+	background: yellow;
+	line-height: 44px;
+}
+.navboxson li:nth-child(1){
+	text-align:left;
+}
+.navboxson li:nth-child(3){
+	text-align:right;
+}
+nav .navboxson a{
+	color: #fff;
+}
+
+nav .navboxson a:hover{
+	color: #AAA7A7;
+}
+
+nav .navbox{
+	width: 1000px;
+	height:44px;
+	margin: 0 auto;
+	text-align:justify;
+}
+nav .navbox ul:after{
+	content: "";
+	display: inline-block;
+	width: 100%;
+	background: orange;
+}
+.navbox li{
+	display: inline-block;
+	line-height: 44px;
+}
+.navbox li a{
+	color: #fff;
+}
+nav .navbox a:hover{
+	color: #AAA7A7;
+}
+
+
+.banner{
+	height: 600px;
+	width: 100%;
+	background: #FAFAFA;
+	background-image: url('../img/ipad_large.jpg');
+	background-size: auto 100%;
+	background-repeat:no-repeat;
+	background-position: 50% 0px;
+}
+.appleBox{
+	width: 100%;
+	height:auto;
+	background: red;
+	overflow: hidden;
+	/* padding: 0px 15px; */
+}
+.appleBox li{
+	width: 25%;
+	height: 200px;
+	background: blue;
+	float: left;
+	border:2px solid #fff;
+	box-sizing: border-box;
+}
+.appleBox li:nth-child(1){
+	background-image: url('../img/wwdc17_large.jpg');
+	background-size: cover;
+	background-position: 50% 0px;
+}
+.appleBox li:nth-child(2){
+	background-image: url('../img/macbook_pro_large.jpg');
+	background-size: cover;
+	background-position: 50% 0px;
+}
+.appleBox li:nth-child(3){
+	background-image: url('../img/accessories_large.jpg');
+	background-size: cover;
+	background-position: 50% 0px;
+}
+.appleBox li:nth-child(4){
+	background-image: url('../img/supplier_responsibility_large.jpg');
+	background-size: cover;
+	background-position: 50% 0px;
+}
+.appleBox li:nth-child(1),li:nth-child(2),li:nth-child(3){
+	border-right: 0px;
+}
+
+/* 底部 */
+.box{
+	width: 100%;
+	height:auto;
+	background: #F2F2F2;
+	margin: 0px auto;
+}
+h3{
+	width: 980px;
+	height:auto;
+	font-size: 11px;
+	color: #919191;
+	line-height: 16px;
+	padding-top: 17px;
+	padding-bottom: 11px;
+	/* border-bottom: 0.8px solid #919191; */
+	box-sizing: content-box;
+	margin:auto;
+}
+.boxson{
+	width: 980px;
+	height: 210px;
+	padding-top: 20px;
+	border-top: 0.8px solid #919191;
+	margin: auto;
+	/* background: red; */
+}
+.boxson1{
+	width: 196px;
+	height: 190px;
+	/* background: blue; */
+	float: left;
+}
+.boxson span{
+	font-size: 11px;
+	float: left;
+	width: 196px;
+	margin-bottom: 6px;
+	font-weight:600;
+	color: #555555;
+}
+.boxson a{
+	font-size: 10px;
+	float: left;
+	width: 196px;
+	margin-bottom: 6px;
+	color: #616161;
+}
+.boxson .zero{
+	margin-bottom: 0px;
+}
+.boxson2{
+	width: 196px;
+	height:209.6px;
+	/* background:yellow; */
+	float: left;
+}
+.boxson3{
+	width: 196px;
+	height:129.6px;
+	/* background:blue; */
+	float: left;
+}
+.smallboxa{
+	width: 196px;
+	height: 52.8px;
+}
+.smallboxb{
+	width: 196px;
+	height: 52.8px;
+	padding-top:24px;
+}
+.boxson4{
+	width: 196px;
+	height:188.4px;
+	/* background:yellow; */
+	float: left;
+}
+.smalboxa{
+	width: 196px;
+	height: 72.4px;
+}
+.smalboxb{
+	width: 196px;
+	height: 92px;
+	padding-top: 24px;
+}
+.boxson5{
+	width: 196px;
+	height:111.6px;
+	/* background:blue; */
+	float: left;
+}
+.footer{
+	width: 980px;
+	height: 52px;
+	margin: 0px auto;
+	/* background:blue; */
+	padding-top: 34px;
+}
+.footone{
+	width: 980px;
+	height:auto;
+	float: left;
+	padding-bottom: 6px;
+	/* border-bottom: 0.8px solid #555555; */
+	line-height: 16px;
+	font-size:8px;
+}
+.foottwo{
+	width: 980px;
+	height:autopx;
+	float: left;
+	border-top: 0.8px solid #555555;
+	line-height: 22.2px;
+	font-size: 8px;
+}
+.foottwo span{
+	float: left;
+	margin-right: 30px;
+}
+.foottwo a{
+	width: 39px;
+	height:auto;
+	line-height: 11px;
+	margin-top: 5px;
+	float: left;
+	border-right: 1px solid #d6d6d6;
+	padding-right: 12px;
+	margin-right: 10px;
+}
+.foottwo a:last-of-type{
+	border-right:0px;
+}
+.foot{
+	width: 980px;
+	height:auto;
+	margin: 0px auto;
+	margin-top: -10px;
+	padding-bottom: 20px;
+	/* background: yellow; */
+	line-height: 16px;
+	font-size: 8px;
+}
+.cangbox{
+	width: 80%;
+	height: 268.8px;
+	border-top: 1px solid #919191;
+	padding-top: 20px;
+	/* background: red; */
+	margin: 0px auto;
+	display: none;
+}
+.cangbox a{
+	float: left;
+	width: 100%;
+	height: 17.6px;
+	padding: 10px 0px;
+}
+.cangbox span{
+	float: left;
+	width: 100%;
+	height: 1px;
+	background: #d6d6d6;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:1050px){
+	.banner{
+		height: 455px;
+		background-image: url('../img/ipad_medium.jpg');
+	}
+	.appleBox li:nth-child(1){
+	width: 50%;
+	box-sizing: border-box;
+	padding: 0px;
+	background-image: url('../img/wwdc17_medium.jpg');
+	background-size: cover;
+	background-position: 50% 0px;
+}
+.appleBox li:nth-child(2){
+	width: 50%;
+	box-sizing: border-box;
+	padding: 0px;
+	background-image: url('../img/macbook_pro_medium.jpg');
+	background-size: cover;
+	background-position: 50% 0px;
+}
+.appleBox li:nth-child(3){
+	width: 50%;
+	box-sizing: border-box;
+	padding: 0px;
+	background-image: url('../img/accessories_medium.jpg');
+	background-size: cover;
+	background-position: 50% 0px;
+}
+.appleBox li:nth-child(4){
+	width: 50%;
+	box-sizing: border-box;
+	padding: 0px;
+	background-image: url('../img/supplier_responsibility_medium.jpg');
+	background-size: cover;
+	background-position: 50% 0px;
+}
+nav .navbox{
+	width: 100%;
+}
+.box{
+	width: 100%;
+}
+h3{
+	width: 80%;
+}
+.boxson{
+	width: 80%;
+}
+.boxson1{
+	width: 20%;
+}
+.boxson2{
+	width: 20%;
+}
+.boxson3{
+	width: 20%;
+}
+.boxson4{
+	width: 20%;
+}
+.boxson5{
+	width: 20%;
+}
+.footer{
+	width: 80%;
+}
+.footone{
+	width: 100%;
+}
+.foottwo{
+	width: 100%;
+}
+.foot{
+	width: 80%;
+}
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:750px){
+
+	.banner{
+	height: 450px;
+	background-image: url('../img/ipad_small.jpg');
+	}
+	.appleBox li:nth-child(1){
+	width: 100%;
+	padding: 0px;
+	background-image: url('../img/wwdc17_small.jpg');
+	background-size: cover;
+}
+    .appleBox li:nth-child(2){
+    width: 100%;
+	padding: 0px;
+	background-image: url('../img/macbook_pro_small.jpg');
+	background-size: cover;
+}
+    .appleBox li:nth-child(3){
+    width: 100%;
+	padding: 0px;
+	background-image: url('../img/accessories_small.jpg');
+	background-size: cover;
+}
+    .appleBox li:nth-child(4){
+    width: 100%;
+	padding: 0px;
+	background-image: url('../img/supplier_responsibility_small.jpg');
+	background-size: cover;
+}
+    .navbox ul{
+	display: none;
+}
+nav .navboxson{
+	display: block;
+}
+.boxson{
+	display: none;
+}
+.cangbox{
+	display: block;
+}
+/* h3{
+	width:66px;
+} */
+}
