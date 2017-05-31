@@ -81,7 +81,6 @@ $(function(){
     let mulu=$(".headnav");
     let mulus=mulu.find("li");
     let liebiao=$(".progect").find("li");
-    console.log(mulu.find("li"));
        mulu.click(function(e){
            console.log(e);
            $(this).find("li").removeClass("hot");
