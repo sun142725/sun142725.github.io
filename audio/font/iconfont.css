@@ -1,0 +1,41 @@
+
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1494950679535'); /* IE9*/
+  src: url('iconfont.eot?t=1494950679535#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1494950679535') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1494950679535') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1494950679535#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bofang:before { content: "\e600"; }
+
+.icon-bofang1:before { content: "\e640"; }
+
+.icon-xiazai:before { content: "\e668"; }
+
+.icon-shoucang:before { content: "\e649"; }
+
+.icon-210:before { content: "\e624"; }
+
+.icon-yinleliebiao:before { content: "\e60f"; }
+
+.icon-danquxunhuan:before { content: "\e61e"; }
+
+.icon-shangyishou:before { content: "\e607"; }
+
+.icon-xiayishou:before { content: "\e616"; }
+
+.icon-shengyin:before { content: "\e601"; }
+
+.icon-qiatong-suijibofang:before { content: "\e680"; }
+
+.icon-xunhuanbofang:before { content: "\e662"; }
+

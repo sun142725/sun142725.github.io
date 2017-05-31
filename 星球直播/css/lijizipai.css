@@ -1,0 +1,83 @@
+body{
+	width:100%;
+	height:100%;
+}
+.ljz-ground{
+	width: 100%;
+	height: 10.52rem;
+	background-image: url('../img/ljz-ground.png');
+	background-repeat: no-repeat;
+	background-size: 7.5rem 10.52rem;
+	padding-top: .68rem;
+}
+.ljz-control{
+	width: 100%;
+	height: 2.82rem;
+	background: black;
+	padding-top: 0.06rem;
+}
+.ljz-ground .back{
+	width: .44rem;
+	height: .44rem;
+	margin-left: .26rem;
+}
+.ljz-ground .back img{
+	display: block;
+	width: .44rem;
+	height: .44rem;
+}
+.ljz-ground .focus{
+	width: 1.39rem;
+	height: 1.46rem;
+	margin-left: 2.95rem;
+	margin-top: 3.67rem;
+	float: left;
+}
+.ljz-ground .focus img{
+	display: block;
+	width: 1.39rem;
+	height: 1.46rem;
+}
+.ljz-control .circle{
+	width: 100%;
+	height: .26rem;
+}
+.ljz-control .dian{
+	width: .16rem;
+	height: .16rem;
+	background: white;
+	border-radius: 50%;
+	margin-left: 3.67rem;
+}
+.ljz-control ul{
+	width: 100%;
+	height: .26rem;
+	text-align: center;
+	padding: 0 26%;
+}
+.ljz-control ul>li{
+	width: .7rem;
+	height: .26rem;
+	color: white;
+	font-size: .24rem;
+	float: left;
+}
+.ljz-control li>a{
+	color: white;
+}
+.ljz-control .batton{
+	width: 100%;
+}
+.ljz-control .battonson{
+	width: 33.3333%;
+	float: left;
+}
+.ljz-control .battonson .yuan{
+    width: 1.6rem;
+    height: 1.6rem;
+    background: white;
+    border-radius: 50%;
+    border: .05rem solid #441F20;
+    margin: auto;
+    margin-top: .4rem;
+}

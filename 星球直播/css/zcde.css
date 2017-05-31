@@ -1,0 +1,223 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	background: url('../img/bj.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.zcde{
+	width: 100%;
+	height: auto;
+}
+.zcde .zcde-icon>a{
+	width: 0.44rem;
+	height: 0.44rem;
+	/* background: red; */
+	margin-top: 0.24rem;
+	margin-left: 0.24rem;
+    display: block;
+}
+.zcde-ws{
+	width: 100%;
+	height: auto;
+	margin-top: 0.8rem;
+}
+.zcde-ws em{
+	display: inline-block;
+	width: 0.55rem;
+	height: 0.7rem;
+	font-size: 0.5rem;
+	font-style: normal;
+	margin-left: 2.5rem;
+	color: #fff;
+}
+.zcde-ws span{
+	width: 1.5rem;
+	height: 0.7rem;
+	font-size: 0.2rem;
+	display: inline-block;
+	line-height: 0.2rem;
+	color: #fff;
+}
+.zcde-yuan{
+	width: 100%;
+	height: auto;
+	padding-left: 0.7rem;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.zcde-yuan img{
+     width: 0.56rem;
+     height: 0.56rem;
+     float: left;
+}
+.zcde-yuan span{
+	display: inline-block;
+	width: 1.82rem;
+	height: 0.02rem;
+	background: #fff;
+	margin: 0.25rem 0.3rem 0rem;
+	float: left;
+}
+.zcde-yuan i{
+	display: inline-block;
+	width: 0.38rem;
+	height: 0.38rem;
+	background: black;
+	border-radius: 50%;
+	float: left;
+	margin-top: 0.08rem;
+
+}
+.zcde-yuan i>em{
+	display: inline-block;
+	width: 0.26rem;
+	height: 0.26rem;
+	border-radius: 50%;
+	background: white;
+	margin-left: 0.06rem;
+	margin-top: 0.06rem;
+}
+.zcde-tjtx{
+	width: 100%;
+	height: auto;
+	margin-top: 0.9rem;
+	position: relative;
+}
+.zcde-tjtx>a{
+	display: block;
+	width: 3.29rem;
+	height: 3.29rem;
+	margin: 0rem auto;
+
+}
+.zcde-tjtx>a>img{
+	width: 3.29rem;
+	height: 3.29rem;
+
+}
+.zcde-tjtx>a>strong{
+	font-size: 0.3rem;
+	color: #fff;
+	position: absolute;
+	transform: translate(1.02rem, -2.4rem);
+}
+.zcde-tjtx>a>em{
+	font-style: normal;
+	font-size: 0.2rem;
+	color: #fff;
+	position: absolute;
+	transform: translate(0.75rem, -1.67rem);
+}
+.zcde-tjtx>span{
+	display: block;
+	width: 0.14rem;
+	height: 0.14rem;
+	background: #fff;
+	border-radius: 50%;
+}
+.zcde-tjtx>span:nth-of-type(1){
+	position: absolute;
+	transform: translate(1.65rem, -1.8rem);
+}
+.zcde-tjtx>span:nth-of-type(2){
+	position: absolute;
+	transform: translate(3.65rem, 0.22rem);
+}
+.zcde-tjtx>span:nth-of-type(3){
+	position: absolute;
+	transform: translate(3.65rem, -3.8rem);
+}
+.zcde-tjtx>span:nth-of-type(4){
+	position: absolute;
+	transform: translate(5.73rem, -1.8rem);
+}
+.zcde-zb{
+	width: 100%;
+	height: 0.85rem;
+	/* background: red; */
+	margin-top: 1.07rem;
+	box-sizing: border-box;
+	padding-left: 0.6rem;
+}
+.zcde-zb ul>a{
+	display: inline-block;
+	width: 2.88rem;
+	height: 0.81rem;
+	color: #262626;
+}
+.zcde-zb ul>a>li{
+	width: 2.88rem;
+	height: 0.81rem;
+	display: inline-block;
+	background: #fff;
+	border-radius: 0.4rem;
+	margin-right: 0.5rem;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 0.1rem;
+	position: relative;
+}
+.zcde-zb ul>a>li>span{
+	width: 0.1rem;
+	height: 0.1rem;
+	display: inline-block;
+	background: #1F7BE8;
+	border-radius: 50%;
+	margin-top: 0.2rem;
+}
+.zcde-zb ul>a>li>strong{
+	font-size: 0.24rem;
+}
+.zcde-zb ul>a>li>em{
+	font-size: 0.18rem;
+	font-style: normal;
+}
+.zcde-zb ul>a>li>span:nth-of-type(1){
+      position: absolute;
+      transform: translate(-0.61rem, 0.07rem);
+}
+.zcde-zb ul>a>li>span:nth-child(3){
+      position: absolute;
+      transform: translate(0.53rem, 0.07rem);
+}
+.zcde-zb ul>a:nth-child(2){
+	margin-left: 0.4rem;
+}
+.zcde-antt{
+	width: 100%;
+	height: auto;
+}
+.zcde-antt>a .zcde-ant{
+	width: 5.5rem;
+	height: 0.9rem;
+	background: #fff;
+	margin: 1rem 0rem 1rem 0rem;
+	box-sizing: border-box;
+	padding-top: 0.25rem;
+    border-radius: 0.4rem;
+	text-align: center;
+}
+.zcde-antt>a{
+	display: block;
+	width: 5.5rem;
+	height: 0.9rem;
+	margin: 0rem auto;
+}
+.zcde-antt>a .zcde-ant>span{
+	width: 0.08rem;
+	height: 0.08rem;
+	background: #C9C9C9;
+	border-radius: 50%;
+	display: inline-block;
+	margin-bottom: 0.06rem;
+}
+.zcde-antt>a .zcde-ant>em{
+	font-style: normal;
+	font-size: 0.32rem;
+	color: #C9C9C9;
+}

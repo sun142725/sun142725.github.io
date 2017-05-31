@@ -1,0 +1,240 @@
+body{
+	background-image:url('../img/dlzccw-beiijng.jpg');
+	/* background-position: -0.1rem 0rem; */
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+
+
+
+
+
+.dlzccw-head{
+	width: 100%;
+	/* margin-top:0.7rem; */
+	padding: 0.7rem 0.25rem 0rem;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.head-zuo{
+	float: left;
+
+}
+.head-zuo>a{
+	width: 100%;
+	display: block;
+}
+.head-zuo>a>img{
+	width: 0.44rem;
+	display: block;
+}
+.head-you{
+	float: right;
+
+	
+}
+.head-you>a{
+width: 100%;
+display: block;
+width: 1.2rem;
+	height: 0.44rem;
+	border-radius: 0.3rem;
+	/* background:white;
+ */	border:0.02rem solid #C8DEF5;
+	box-sizing: border-box;
+	font-size: 0.25rem;
+	text-align: center;
+	line-height: 0.44rem;
+	color: #CEDBF4;
+}
+.dlzccw-content{
+	/* margin-top: 0.75rem; */
+	width: 2.05rem;
+	height: 2.05rem;
+	border-radius: 50%;
+	margin:0.75rem auto 0rem;
+
+}
+.dlzccw-content>a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	overflow: hidden;
+	border-radius: 50%;
+
+}
+.dlzccw-content>a>img{
+	width:2.2rem;
+	height: 2.17rem;
+	display: block; 
+	transform: translate(-0.08rem,-0.05rem);
+}
+.dlzccw-input{
+	padding-top: 0.55rem;
+	box-sizing: border-box;
+	width: 100%;
+
+}
+.dlzccw-input-1{
+	margin: 0rem auto;
+}
+.dlzccw-input-1{
+	display: block;
+	width: 5.05rem;
+	height: 0.82rem;
+	margin: 0rem auto;
+border-radius:0.4rem;
+	position: relative;
+	border:0.02rem solid #1D71D4;
+	box-sizing: border-box;
+}
+.tishikuang{
+	width: 2.98rem;
+	height: 0.53rem;
+	border-radius: 0.4rem;
+	font-size: 0.24rem;
+	color: #F75353;
+	position: absolute;
+	bottom: -0.25rem;
+	text-align: center;
+	line-height: 0.53rem;
+	right: -0.1rem;
+	background: white;
+	border-bottom: 0.02rem solid #1D71D4;
+}
+.dlzccw-input-1>img:last-of-type{
+	width: 0.2rem;
+	display: block;
+	height: 0.2rem;
+	position: absolute;
+	right:-0.12rem;
+	top: 0.3rem;
+}
+.dlzccw-input-1>img:first-of-type{
+	position: absolute;
+	display: block;
+	width: 0.23rem;
+	height: 0.32rem;
+	left: 0.4rem;
+	top:0.25rem;
+}
+.dlzccw-input-1>input{
+	width: 5.05rem;
+	height: 0.82rem;
+	background: #FFFFFF;
+	display: block;
+	border: 0rem;
+	border-radius:0.4rem;
+	padding-left:0.85rem; 
+	font-size: 0.24rem;
+	outline: none;
+	box-sizing: border-box;
+	color: #303030;
+}
+.dlzccw-input2{
+	padding-top: 0.45rem;
+	box-sizing: border-box;
+	width: 100%;
+}
+.dlzccw-input2-1{
+	display: block;
+	width: 5.05rem;
+	height: 0.81rem;
+	margin: 0rem auto;
+	border:0.02rem solid #1D71D4;
+	box-sizing: border-box;
+	position: relative;
+}
+.dlzccw-input2-1>img:first-of-type{
+	display: block;
+	width:0.25rem;
+	position: absolute;
+	top: 0.25rem;
+	left: 0.4rem; 
+}
+.dlzccw-input2-1>input{
+		width: 5.05rem;
+	height: 0.81rem;
+	background:  #FFFFFF;
+	display: block;
+	border: 0rem;
+	border-radius:0.4rem;
+	padding-left:0.85rem; 
+	font-size: 0.24rem;
+	outline: none;
+	box-sizing: border-box;
+	color: #303030;
+
+}
+.dlzccw-input2-1>img:last-of-type{
+	width: 0.2rem;
+	display: block;
+	height: 0.2rem;
+	position: absolute;
+	right:-0.12rem;
+	top: 0.3rem;
+}
+.dlzccw-input3{
+	
+	width: 67%;
+	/* background: green; */
+	margin: 0rem auto;
+	overflow: hidden;
+}
+.dlzccw-input3-left{
+	float: left;
+	/* overflow: hidden; */
+	/* width: 30%; */
+}
+
+
+
+.dlzccw-input3-left>a{
+	width: 100%;
+	display: block;
+	line-height: 0.7rem;
+	font-size: 0.24rem;
+	color: #fff;
+}
+.dlzccw-input3-left>a>img{
+  width: 0.27rem;
+  display: block;
+  float: left;
+  margin-top: 0.2rem;
+  margin-right: 0.15rem;
+}
+.dlzccw-input3-right{
+	float: right;
+}
+.dlzccw-input3-right>a{
+	display: block;
+	width: 100%;
+	 line-height: 0.7rem;
+	font-size: 0.24rem;
+	color: #fff;
+
+}
+.dlzccw-input5{
+	margin: 0rem auto;
+	width: 70%;
+	/* height: 0.8rem; */
+}
+.dlzccw-input5>input{
+	width: 5.07rem;
+	height:0.82rem;
+	outline: none; 
+	text-align: center;
+	line-height: 0.82rem;
+	background-image: url('../img/dlzcdlz-dlz.png');
+	background-size: cover;
+	border-radius: 0.4rem;
+	border:0.02rem solid #F3F3F3;
+box-sizing: border-box;
+font-size: 0.36rem;
+color: #E0E0E0;
+margin: 0rem auto;
+display: block;
+} 
