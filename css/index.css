@@ -70,7 +70,7 @@
     color:#ffffff;
 }
 .section2{
-    background-image: url("../img/section2.jpg");
+    background-image: url("../img/section5.jpg");
     background-size:100% 100%;
     position: relative;
     padding: 50px 150px;
@@ -208,11 +208,8 @@
     width:100%;
     height:200px;
 }
-.section3 .progect>li>a>img:hover{
-    opacity: 0.8;
-}
 .section4{
-    background-image: url("../img/section4.jpg");
+    background-image: url("../img/section6.jpg");
     background-size:100% 100%;
     position: relative;
 }
