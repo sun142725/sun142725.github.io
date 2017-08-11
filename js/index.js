@@ -9,7 +9,7 @@ function kuai(ctx,score){
         ctx.fillStyle='#EB5424';
         ctx.lineCap="round";
         ctx.textAlign='center';
-        ctx.font='bold 40px 宋体';
+        ctx.font='bold 24px 宋体';
         ctx.textBaseline='middle';
         t=setInterval(farme,30);
         function farme(){
@@ -66,12 +66,21 @@ function kuai(ctx,score){
     		}
 })
 		let switchs=true;
+		let switchs2=true;
 		$(window).on('scroll',()=>{
 			if($('#resume').offset().top < scrollY+100 && $('#about').offset().top > scrollY){
 //			location.hash =  '#resume'
 				if(switchs){
 					switchs = false;
 					sjh_donghua()
+				}
+		}
+			if($('#contact').offset().top < scrollY+400){
+//			location.hash =  '#resume'
+				if(switchs2){
+					switchs = false;
+					$(".mottoL").css("transform","translateX(0)")
+					$(".mottoR").css("transform","translateX(0)")
 				}
 		}
 		})

@@ -24,8 +24,6 @@ hr {
   text-transform: uppercase;
 }
 .canvas{
-	width:25%;
-	hieght:100%;
 	float:left;
 	text-align: center;
 }
@@ -34,10 +32,10 @@ hr {
 	line-height: 28px;
 	font-size: 16px;
 	font-weight: bold;
-	color:##606060;
+	color:#606060;
 }
 canvas{
-	marin:0 auto;
+	margin:0 auto;
 }
 
 /* START NAVIGATION */
@@ -415,6 +413,18 @@ canvas{
  .form-control:hover {
   background: #202020;
   color: #ffffff;
+}
+.mottoL{
+	font-size: 18px;
+	line-height: 36px;
+	transform: translateX(-100%);
+	transition: all 0.5s cubic-bezier(0.18, 0.28, 0.93, 1.22);
+}
+.mottoR{
+	font-size: 18px;
+	line-height: 36px;
+	transform: translateX(100%);
+	transition: all 0.5s cubic-bezier(0.18, 0.28, 0.93, 1.22);
 }
 input { height: 50px; }
 .tm-contact p { padding-top: 40px; }
