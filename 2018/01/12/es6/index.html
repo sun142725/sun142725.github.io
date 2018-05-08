@@ -173,9 +173,11 @@
 <h3 id="Promise"><a href="#Promise" class="headerlink" title="Promise"></a>Promise</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">let</span> checks = <span class="function"><span class="title">function</span></span>()&#123;</span><br><span class="line"><span class="built_in">return</span> new Promise(<span class="keyword">function</span>(resolve,reject)&#123;</span><br><span class="line">var a = Math.floor(Math.random()*2)</span><br><span class="line"><span class="keyword">if</span>(a)&#123;</span><br><span class="line">resolve(<span class="string">'success'</span>)</span><br><span class="line">&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">reject(<span class="string">'error'</span>)</span><br><span class="line">&#125;</span><br><span class="line">&#125;)</span><br><span class="line">&#125;</span><br><span class="line">checks().<span class="keyword">then</span>(res=&gt;console.log(res))</span><br><span class="line">.catch(err=&gt;console.log(err))</span><br></pre></td></tr></table></figure>
 <h3 id="箭头函数"><a href="#箭头函数" class="headerlink" title="箭头函数"></a>箭头函数</h3><ul>
 <li>当返回值有且只有一个时不用写return<br><code>console.log((a)=&gt;console.log(a))</code></li>
-<li>有多步时需要加{}<br><code>console.log((a)=&gt;{console.log(a)})</code><h3 id="模板字符串"><a href="#模板字符串" class="headerlink" title="模板字符串"></a>模板字符串</h3></li>
+<li>有多步时需要加{}<br><code>console.log((a)=&gt;{console.log(a)})</code></li>
+<li>this的绑定<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">箭头函数中，this指向的固定化，并不是因为箭头函数内部有绑定this的</span><br><span class="line"></span><br><span class="line">机制，实际原因是箭头函数根本没有自己的this，导致内部的this就是外</span><br><span class="line"></span><br><span class="line">层代码块的this。正是因为它没有this，所以也就不能用作构造函数。</span><br></pre></td></tr></table></figure>
+</li>
 </ul>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">let</span> a = <span class="string">'红红'</span></span><br><span class="line">console.log(`<span class="variable">$&#123;a&#125;</span>最帅`)</span><br><span class="line"></span><br><span class="line">* <span class="string">'红红最帅'</span></span><br></pre></td></tr></table></figure>
+<h3 id="模板字符串"><a href="#模板字符串" class="headerlink" title="模板字符串"></a>模板字符串</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">let</span> a = <span class="string">'红红'</span></span><br><span class="line">console.log(`<span class="variable">$&#123;a&#125;</span>最帅`)</span><br><span class="line"></span><br><span class="line">* <span class="string">'红红最帅'</span></span><br></pre></td></tr></table></figure>
 
     </div>
 
@@ -193,10 +195,10 @@
 
 <div class="article-nav prev-next-wrap clearfix">
     
-        <a href="/2018/03/09/git/" class="pre-post btn btn-default"><i class="fa fa-angle-left fa-fw"></i>上一篇</a>
+        <a href="/2018/01/12/android/" class="pre-post btn btn-default"><i class="fa fa-angle-left fa-fw"></i>上一篇</a>
     
     
-        <a href="/2018/01/12/blog/" class="next-post btn btn-default">下一篇<i class="fa fa-angle-right fa-fw"></i></a>
+        <a href="/2018/01/12/weex/" class="next-post btn btn-default">下一篇<i class="fa fa-angle-right fa-fw"></i></a>
     
 </div>
 
@@ -281,7 +283,7 @@
         
     <div class="widget">
       <h3 class="title">Archives</h3>
-        <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/"><i class="fa" aria-hidden="true">March 2018</i></a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/"><i class="fa" aria-hidden="true">January 2018</i></a><span class="archive-list-count">15</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/"><i class="fa" aria-hidden="true">October 2017</i></a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/05/"><i class="fa" aria-hidden="true">May 2017</i></a><span class="archive-list-count">1</span></li></ul>
+        <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/"><i class="fa" aria-hidden="true">May 2018</i></a><span class="archive-list-count">9</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/"><i class="fa" aria-hidden="true">April 2018</i></a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/"><i class="fa" aria-hidden="true">January 2018</i></a><span class="archive-list-count">16</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/12/"><i class="fa" aria-hidden="true">December 2017</i></a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/"><i class="fa" aria-hidden="true">October 2017</i></a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/05/"><i class="fa" aria-hidden="true">May 2017</i></a><span class="archive-list-count">1</span></li></ul>
     </div>
 
 
@@ -290,7 +292,7 @@
   <div class="widget">
     <h3 class="title">Tag Cloud</h3>
     <div class="content tag-cloud">
-        <a href="/tags/React/" style="font-size: 10px;">React</a> <a href="/tags/Vue/" style="font-size: 10px;">Vue</a> <a href="/tags/android/" style="font-size: 20px;">android</a> <a href="/tags/blog/" style="font-size: 10px;">blog</a> <a href="/tags/css/" style="font-size: 20px;">css</a> <a href="/tags/ios/" style="font-size: 20px;">ios</a> <a href="/tags/javascripts/" style="font-size: 20px;">javascripts</a> <a href="/tags/mobile/" style="font-size: 10px;">mobile</a> <a href="/tags/module/" style="font-size: 10px;">module</a> <a href="/tags/mui/" style="font-size: 10px;">mui</a> <a href="/tags/node/" style="font-size: 20px;">node</a> <a href="/tags/react/" style="font-size: 10px;">react</a> <a href="/tags/server/" style="font-size: 20px;">server</a> <a href="/tags/video/" style="font-size: 20px;">video</a> <a href="/tags/week/" style="font-size: 20px;">week</a>
+        <a href="/tags/React/" style="font-size: 10px;">React</a> <a href="/tags/Vue/" style="font-size: 10px;">Vue</a> <a href="/tags/android/" style="font-size: 12.5px;">android</a> <a href="/tags/blog/" style="font-size: 10px;">blog</a> <a href="/tags/css/" style="font-size: 12.5px;">css</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/ios/" style="font-size: 12.5px;">ios</a> <a href="/tags/javascripts/" style="font-size: 12.5px;">javascripts</a> <a href="/tags/mobile/" style="font-size: 10px;">mobile</a> <a href="/tags/module/" style="font-size: 10px;">module</a> <a href="/tags/mui/" style="font-size: 10px;">mui</a> <a href="/tags/node/" style="font-size: 15px;">node</a> <a href="/tags/plugin/" style="font-size: 10px;">plugin</a> <a href="/tags/react/" style="font-size: 10px;">react</a> <a href="/tags/server/" style="font-size: 17.5px;">server</a> <a href="/tags/video/" style="font-size: 12.5px;">video</a> <a href="/tags/webGL/" style="font-size: 20px;">webGL</a> <a href="/tags/week/" style="font-size: 12.5px;">week</a> <a href="/tags/兼容/" style="font-size: 12.5px;">兼容</a>
     </div>
   </div>
 
